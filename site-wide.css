@@ -1,0 +1,224 @@
+/* Kairos Site-wide Styles */
+/* Test blue: --4066B3-- */
+/* Standard red: --B02B2C-- */
+#header {
+ border-top: 8px solid #4066B3;
+ background-color: black;
+ background-image: url('gfx/fade-out.jpg');
+ background-position: bottom;
+ background-repeat: repeat-x;
+ color: white;
+ padding-top: 6em;
+ padding-bottom: 150px;
+ padding-left: 15%;
+ padding-right: 15%;
+ height: 6em;
+}
+#header h1 {
+ position: absolute;
+ left: 15%;
+ top: 1.2em;
+ height: 90px;
+ width: 20%;
+ font-size: 2.2em;
+}
+#header h1 a {
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ color: white;
+ background-color: #4066B3;
+ background-image: url('gfx/treated-logo-trans.png');
+ padding-left: 130px;
+ padding-top: 1em;
+ }
+#header h2 {
+ position: relative;
+ margin-left: 130px;
+ margin-top: 1em;
+ font-size: 85%;
+ font-family: Georgia, 'Times New Roman', serif;
+ font-weight: normal;
+ font-style: italic;
+ padding-bottom: 0em;
+ padding-top: 0em;
+ float: left;
+}
+
+#header h3 {
+ font-size: 90%;
+ font-family: Georgia, "Times New Roman", Roman, serif;
+ font-weight: normal;
+ text-transform: lowercase; /*Shift "ISSN" to lower-case*/
+ font-variant: small-caps; /*And then treat it as small caps; makes
+the caps X-height match the numerals. Nifty!" */
+ text-align: right;
+ margin-top: 2em;
+}
+
+
+#navigation { position: absolute; top: 0px; right: 15%; }
+#navigation li { background-color: #4066B3; float: left; margin-left: 10px; border: 1px solid black; border-top: 0px; color: white; }
+#navigation li a { display: block; color: white; padding: 24px 10px 10px 10px; }
+#navigation li a:hover {background-color: white; color: #4066B3; }
+#content{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: -120px;
+  background-color: #EEE;
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 95em; /*Set as just height: 95em; in IE CSS*/
+  max-width: 900px;
+  min-width: 600px;
+
+}
+/* comments in xhtml refer to id main-content, but it wasn't in here. I'm going to add some padding and background of white and see how that looks */
+
+#main-content{padding: 20px; margin-left: 2em; width: 70%;  font-family: Tahoma, Arial, sans-serif; font-size: 101%;}
+
+
+/*have to over-ride the stuff in foundation.css ... need to do this for everything*/
+/*div#main-content ul {margin-bottom: 1.5em; margin-top: 1em; list-style:inside; font-size: 100%;}
+div#main-content dl {margin-bottom: 1.5em; margin-top: 1em; font-size: 100%;}
+div#main-content li {list-style:inside; margin-bottom: 1em; font-size: 100%;}
+div#main-content dt { margin-bottom: 1em; font-size: 100%;}
+div#main-content dd { margin-bottom: 1em; font-size: 100%;}
+div#main-content p { margin-bottom: 1em; font-size: 100%;}*/
+
+/*Karl's Attempt to Get Doug's Ideas Together, with some Tweaks:*/
+
+div#main-content * + h3 { margin-top: 2em; }
+div#main-content blockquote { margin-left: 40px; line-height: 1.5; }
+div#main-content dl, div#main-content ol, div#main-content ul li { list-style:inside; margin-left: 20px; margin-bottom: .5em; }
+div#main-content dt { margin-bottom: 0em; }
+div#main-content ul li { list-style-type: disc; padding-left: 10px; }
+div#main-content ol li { list-style-type: decimal; padding-left: 10px; }
+div#main-content ul, div#main-content dl, div#main-content p, div#main-content ol { font-size: 100%; margin-top: 1em; margin-bottom: 1em; line-height: 1.5; }
+
+
+#summary { padding: 10px 10px 10px 10px; margin-right: 35%; }
+#logging-on { margin: 1em 37% 2em 1em; padding-right: 1em; background-image: url('gfx/alpha80w.png'); }
+#logging-on ul { margin-right: 2em; padding: 1em; }
+#logging-on h2 { margin-left: .5em; }
+#logging-on h3 { margin-left: 1em; }
+#issue > h2 { color: white; background-color: #4066B3; text-align: right; padding: .25em 1em .25em 0em; }
+#issue > h3 { color: white; position: absolute; top: .25em; left: 1em; }
+#issue > h2 > a  { color: white;}
+#issue > h3 > a  { color: white;}
+#issue * h3 { color: white; font-size: 85%; font-family: Tahoma, Arial, sans-serif; padding-top: .30em; padding-bottom: 1em; }
+div#logging-on li, p { font-family: Tahoma, Arial, sans-serif; font-size: 101%; line-height: 1.5; margin-top: .5em; }
+div#logging-on li a { font-weight: bold; }
+li#staff > ul, li#kairosnewsfeed h3 { font-family: Tahoma, Arial, sans-serif; font-size: 85%; line-height: 1.5;}
+
+#webtexts {
+  position: absolute;
+  background-color: white;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  padding: 20px;
+  margin-top: 1em;
+  margin-left: -19px;
+  margin-right: 35%;
+  margin-bottom: 1em;
+
+}
+
+#webtexts li {list-style:none;}
+#webtexts ul {padding-bottom: 30px;}
+.reviews {list-style:none; padding-top: 10px;}
+#supporting-content{ padding-top: 5em; margin-left: 65%; padding-left: 10px; padding-right: 10px;}
+#logging-on h2, #reviews h2, #webtexts li h2 { color: #666; background-color: #DDD; padding: .25em; }
+#logging-on h2 { margin-right: 0em; margin-bottom: 1em; background-color: transparent; }
+#reviews * h2, #webtexts li * h2 { background-color: transparent; margin-top: 1em; padding: 0em; }
+#topoi, #praxis, #disputatio, #inventio { margin-top: 2em; }
+#webtexts li ul li, #webtexts li, #webtexts ul { clear: both; }
+img { padding: 5px; border: 1px solid #BBB; background-color: #DDD; float: left; margin: .5em 1em 2em 0em; }
+thumb { padding: 5px; border: 1px solid #BBB; background-color: #DDD; float: left; margin: .5em 1em 2em 0em; }
+
+
+#sub-content {
+  background-image: url('gfx/fade-up.jpg');
+  background-repeat: repeat-x;
+  padding-top: 160px;
+  color: white;
+  background-color: #333;
+  margin-top: -100px;
+  padding-bottom: 3em;
+}
+#footer { background-color: #333; font-weight: bold; font-size: 85%; font-family: Tahoma, Arial, sans-serif; padding-left: 15%; padding-top: 3em; padding-bottom: 2em; }
+#footer a { color: white; }
+#sub-content > ul {
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#sub-content li {list-style:none;}
+
+#sub-content h2 { border-bottom: 1px dotted white; margin-bottom: 1em; padding: .25em; color: #4066B3; }
+#about {
+  position: relative;
+  margin-left: 157px;
+  margin-right: 35%;
+  padding: 0px 10px 10px 10px;
+}
+#about p {
+  margin-top: 0em;
+  margin-bottom: 1em;
+}
+
+ul#navigation li {list-style:none;}
+
+li#staff { position: absolute; padding: 0px 10px 10px 10px; width: 137px; left: 0px; top: 0px; text-align: right; border-right: 1px solid #4066B3; }
+li#staff h2 { margin-left: -10px; }
+#kairosnewsfeed h2 { margin-right: -10px; }
+li#staff li ul { margin-bottom: 1.5em; }
+#kairosnewsfeed { position: absolute; top: 0px; margin-left: 65%; padding: 0px 10px 10px 10px; }
+#kairosnewsfeed p, #kairosnewsfeed li { margin: 0; padding: 0; }
+#kairosnewsfeed li { margin-bottom: 1em; }
+#kairosnewsfeed h3 { margin: 0; padding: 0; }
+
+/*lists*/
+
+dl {margin-left: 20px; font-family: Tahoma, Arial, sans-serif; font-size: 85%;}
+dt {font-weight:bold; margin-top:1em; margin-bottom: 1em;}
+dd {margin-bottom: 1em;}
+
+#editors {margin-left: 2em; margin-top: 2em;}
+#main-content ul#editors { margin-left: 0px; }
+#main-content #editors li {list-style:none; margin-left: 0; margin-bottom: 0;}
+#main-content #editors li.section {margin-top: 2em;  font-weight:bold;}
+#main-content #editors li.name {margin-top: .5em;  margin-left: 1em; font-weight:bold;}
+#main-content #editors li.institution {margin-left: 1em; font-style:italic}
+#main-content #editors li.email {margin-left: 1em;}
+
+#assteditors {margin-left: 2em; margin-top: 2em;}
+#main-content ul#assteditors { margin-left: 0px; }
+#main-content #assteditors li {list-style:none; margin-left: 0; margin-bottom: 0;}
+#main-content #assteditors li.section {margin-top: 2em;  font-weight:bold;}
+#main-content #assteditors li.name {margin-top: .5em;  margin-left: 1em; font-weight:bold;}
+#main-content #assteditors li.institution {margin-left: 1em; font-style:italic}
+#main-content #assteditors li.email {margin-left: 1em;}
+
+#main-content h4 {font-weight: bold; padding-top: 10px;}
+#main-content blockquote {padding: 8px;}
+#main-content code {padding: 8px;}
+
+
+#founder { clear:both; padding-top: 3em; margin-left: auto; margin-right: auto; display: block; width: 12em; font-size: 100%;}
+
+/* 2 column layout in main-content */
+.leftcol {width: 45%; float:left; margin-right: 12px;}
+.rightcol {width: 45%; float:right; margin-top: 8.5em;}
+
+/*Anchors*/
+h2 cite, h3 cite { font-weight: bold; }
+#issue a {text-decoration: none; color: #000; }
+a { text-decoration: none; color: #4066B3; }
+
+#search {position: relative; float:right; margin-right: 1em; margin-top: 1.5em; z-index:1; width: 33%;}
