@@ -43,11 +43,31 @@
 <body id="issue-overview">
 <div id="container">
 
-<div id="header">
-  <h1 id="logo"><a href="http://kairos.technorhetoric.net" title="Kairos Home">Kairos</a></h1>
-  <h2 id="tagline">A Journal of Rhetoric, Technology, and Pedagogy</h2>
-  <h3 id="issn">ISSN 1521-2300</h3>
-</div><ul id="navigation"><li><a href="/archive.html">Issues</a></li><li><a href="/about.html">About</a></li><li><a href="/submissions.html">Submit</a></li><li><a href="/board.html">Board</a></li><li><a href="/staff.html">Staff</a></li><li><a href="/awards.html">Awards</a></li><li><a href="/kairoscast/index.html">kCast</a></li></ul>
+<header id="header">
+  <!--
+    TODO: #logo should reference an element that loads the Kairos logo as SVG right in the HTML.
+    Additionally, there should be a PNG fallback for old browsers that don't support SVG.
+  -->
+  <h1 id="logo">
+    <a href="http://kairos.technorhetoric.net" rel="home" title="Kairos Home">Kairos</a>
+    <small id="tagline">A Journal of Rhetoric, Technology, and Pedagogy</small>
+  </h1>
+  <address id="issn">
+    <abbr title="International Standard Serial Number">ISSN</abbr>
+    <a href="http://road.issn.org/issn/1521-2300-kairos">1521-2300</a>
+  </address>
+  <nav id="navigation">
+    <ul>
+      <li><a href="/archive.html">Issues</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/submissions.html">Submit</a></li>
+      <li><a href="/board.html">Board</a></li>
+      <li><a href="/staff.html">Staff</a></li>
+      <li><a href="/awards.html">Awards</a></li>
+      <li><a href="/kairoscast/">kCast</a></li>
+    </ul>
+  </nav>
+</header>
 
  <div id="content">        <div id="issue">
             <h2>Open Issue</h2>
