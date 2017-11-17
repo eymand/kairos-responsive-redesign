@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<!--
+
+========BEGIN HEADER FUNCTION (INCLUDES DOCTYPE ABOVE)========
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" id="kairos-technorhetoric-net" lang="en">
+<!--#kairos-technorhetoric-net = CSS signature-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Kairos Style Guide - Kairos: A Journal of Rhetoric, Technology, and Pedagogy</title>
+<!--Link to reset and development-only CSS-->
+<link rel="stylesheet" type="text/css" href="/foundation.css" media="screen" />
+<!--Link to site-wide styles-->
+<link rel="stylesheet" type="text/css" href="/site-wide.css" media="screen" /> 
+
+<meta name="title" content="Kairos Style Guide - Kairos: A Journal of Rhetoric, Technology, and Pedagogy." /> 
+<meta name="description" content="Kairos: A Journal of Rhetoric, Technology, and Pedagogy is the premier online, peer-reviewed journal in computers and writing." /> 
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /> 
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" /> 
+<meta name="DC.title" lang="English" content="Kairos: A Journal of Rhetoric, Technology, and Pedagogy" /> 
+<meta name="DC.subject" lang="English" content="The intersections of rhetoric, technology, and pedagogy, with a focus on writing studies and composition" /> 
+<meta name="DC.publisher" content="Kairos: A Journal of Rhetoric, Technology, and Pedagogy" />
+
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" /> 
+<meta name="DC.format" content="text/html; charset=UTF-8" /> 
+<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://kairos.technorhetoric.net/styleguide.html" /> 
+<meta name="DC.language" scheme="DCTERMS.URI" content="English" /> 
+<!--Link to IE 7 CSS in conditional comment-->
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="/ie7-fixes.css" media="screen" />
+<![endif]-->
+<!--Pass in a height value for #content, as IE doesn't know how to
+handle min-height-->
+<!--[if lte IE 7]>
+<style type="text/css" media="screen">
+#webtexts { position: absolute; } #content { height: 120em; }</style>
+<![endif]-->
+</head><body id="issue-overview" OnLoad="document.cse-search-box.searchtext.focus();"><div id="container">
+ 
+<div id="header">
+  <h1 id="logo"><a href="http://kairos.technorhetoric.net" title="Kairos Home">Kairos</a></h1>
+  <h2 id="tagline">A Journal of Rhetoric, Technology, and Pedagogy</h2>
+  <h3 id="issn">ISSN 1521-2300</h3>
+</div><ul id="navigation"><li><a href="/archive.html">Issues</a></li><li><a href="/about.html">About</a></li><li><a href="/submissions.html">Submit</a></li><li><a href="/board.html">Board</a></li><li><a href="/staff.html">Staff</a></li><li><a href="/awards.html">Awards</a></li><li><a href="/kairoscast/index.html">kCast</a></li></ul>
+
+ <div id="content">
+  <div id="issue">
+  <h2><a href="index.html">Current Issue</a></h2>
+  <h3>The <em>Kairos</em> Style Guide</h3>
+  </div>
+  <div id="logging-on">
+    <ul>
+    <li><a href="#design">Design Requirements</a></li>
+    <li><a href="#xhtml">Code Requirements</a></li>
+    <li><a href="#apa">Modified APA Citation Style</a></li>
+    <li><a href="#errors">Common Grammar, Style, and Usage Errors</a></li>
+    </ul>
+  </div>
+    <!--On non-issue-home pages, use <div id="main-content"></div> instead of the ul#webtexts-->
+   <div id="main-content">
+
+
+
+<h3><a name="design" id="design"></a>Design Requirements</h3>
+
+<p>All webtexts go through a design-edit to ensure they are ready for publication. The design edit consists of checking for readability, accessibility, usability, and sustainability. Design-editing, just like copy-editing, is a practice in negotiation with the author's design-voice. Authors of HTML-based webtexts (e.g., everything except wiki webtexts) are required to follow these design and coding requirements.</p>
+
+<p><strong>Rhetorical Considerations</strong></p>
+
+<ul>
+
+<li>All media and design elements should be non-gratuitous and facilitate or enact the rhetorical and aesthetic argument of the webtext.</li>
+
+<li>All links should contribute to the possible meanings and readings of the texts. Linking for the sake of linking is discouraged (e.g., external links in-text to outside sources is usually discouraged in favor of links in the works cited; internal linking to the works cited is discouraged unless a text specfically requires it, and then back-navigation must also be provided).</li>
+
+<li>Authors should attempt to make clear where links are going so that readers may make informed navigational decisions. This can often be done by linking from descriptive phrases rather than individual words.</li>
+
+<li>Links to external nodes should point, to the best of the author's knowledge, to stable sites and resources. Since back issues of <em>Kairos</em> will be available in our archives, we must strive to make all links as current and accurate as possible. Authors might consider contacting the authors of pages they link to in hopes of determining such stability.</li>
+
+<li>Care should be given in linking to commercial sites in order to avoid promoting any particular companies or their products. If links must be made to commercial sites for the purposes of the webtext, they should be made to informational documents rather than sales pages when possible. </li>
+
+
+<li>Offsite/external links should open in a new browser window. </li>
+
+<li>Links to other <em>Kairos</em> webtexts should open in the same window.</li>
+
+<li>Do not link terminal punctuation.</li>
+
+</ul>
+
+
+<p><strong>Accessibility</strong></p>
+<ul>
+<li>Use alt-tags with every image and embedded media element to provide a clear and concise description of the image and improve accessibility; alt tags should describe the image, title tags should explain the rhetorical use of the image.</li>
+
+<li>All submissions that include audio or video multimedia files must also include transcripts.</li>
+
+<li>Sceenshots that primarily contain text should not be placed as images in a webtext (transcribe the text and style it with CSS). </li>
+
+<li>If using proprietary presentation software (e.g., Flash, Quicktime, .wav, PDFs, etc.), please provide alternate versions of your text as external XML and/or multimodal transcripts to increase readabilty and accessibility of your webtext. In addition, you may be asked to submit the editable version (.fla, .doc, .aup, etc.) for editing by the staff once a piece has been accepted for publication.</li>
+
+<li>Use WAVE (<a href="http://wave.webaim.org/">http://wave.webaim.org/</a>) to review your webtext for accessibility issues, including code requirements and design considerations such as making sure text elements are presented with sufficient background-foreground contrast.</li>
+
+<li>Upon acceptance, any text files or transcripts (usually Word or PDF files) that are linked to the webtext must be supplied for archiving on our server.</li>
+
+</ul>
+
+<p><strong>Usability</strong></p>
+<ul>
+
+<li>All non-wiki submissions require an HTML page (e.g. for a video or audio text, there must be an HTML page container for the media elements).</li>
+
+<li>The home page for all non-wiki webtexts should be "index.html" </li>
+
+<li>All HTML-based filenames and folders must be lowercase and include no spaces or non-Web characters.</li>
+
+<li>All webpages in non-wiki webtexts should have titles that follow <em>Kairos</em>'s page-title conventions (e.g. Authorlastname, Short Webtext Title - PageTitle). See current issue for examples.</li>
+
+<li>Double-check to make sure all internal and external links work.</li>
+
+<li>All images should reside in an /images/ folder (or /media/ folder, as appropriate).</li>
+
+<li>HTML-based webtexts should demonstrate cross-browser compatibility (i.e., Internet Explorer 6+, Firefox 1.0+, Safari 1.0+, Opera 8+) and degrade gracefully when elements such as JavaScript are not enabled by a user's browser or when images/CSS fail to load.</li>
+
+
+</ul>
+
+<p><strong>Sustainability</strong></p>
+
+<ul>
+<li>We need to be able to archive everything we publish, so we cannot accept webtexts hosted on third-party sites (like WIX and Weebly).</li>
+<li>We strongly encourage authors to use standard, non-proprietary formats (HTML 5, CSS, etc.) rather than Flash or other embedded proprietary media or template engines.</li>
+<li>Upon acceptance, we will need copies of all embedded media files, and all 3rd-party sites that host files must be shared with the journal in order to facilitate editing and archiving.</li>
+</ul>
+
+
+<h3><a name="xhtml" id="xhtml"></a>Code Requirements</h3>
+
+<p>Upon submission, all webtexts will be reviewed for adherence to the basic standards of valid markup. The simplest approach is to code properly from the outset, rather than attempting to correct errors at the end of the editorial process. This primarily requires a few simple steps to ensure that your code will validate. (Tip: You can use <a href="http://validator.w3.org/" target="link">http://validator.w3.org/</a> for HTML and <a href="http://jigsaw.w3.org/css-validator/" target="link">http://jigsaw.w3.org/css-validator/</a> for CSS to review your code at any time during the development process.)</p>
+
+<p>The following is a short list of requirements that published webtexts will be expected to meet prior to final publication:</p>
+
+<ul>
+<li>External style sheets are required to facilitate the editing process. Please do not use inline styles.</li>
+
+<li>All element and attribute names must be lowercase (e.g. use alt, not ALT; p not P, etc.)</li>
+
+<li>Attribute values must always be quoted (e.g. width="75" not width=75)</li>
+
+<li>All non-empty elements that have an opening tag must have a matching closing tag. For example:<br />
+<code> a break must be coded as &lt;br /&gt;, list items must end in &lt;/li&gt;, and img tags require a closing /</code>
+
+</li>
+
+<li>Please use character entities for ampersands (<code>&amp;amp;</code>), em-dashes (<code>&amp;mdash;</code>), and en-dashes (<code>&amp;ndash;</code>).</li>
+
+<li>We strongly prefer HTML 5 as the coding standard for <em>Kairos</em> webtexts; XHTML is also acceptable.</li>
+
+<li>If you are using XHTML, the following lines should appear at the top of each HTML page (you can copy and past the code below if it is not already in the file): <br /><br />
+
+<code>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;</code><br />
+<code>&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;</code><br />
+<code>&lt;head&gt;</code><br /><br />
+</li>
+
+<li> If you are using HTML 5, the following lines should appear at the top of each HTML page (you can copy and past the code below if it is not already in the file): <br /><br />
+<code>&lt;!DOCTYPE html &gt;</code><br />
+<code>&lt;html lang="en"&gt;</code><br />
+<code>&lt;head&gt;</code><br />
+<code>&lt;meta charset="utf-8"&gt;</code><br />
+<br />
+</li>
+
+</ul>
+
+
+<h3><a name="apa" id="apa"></a> Modified APA Citation Style</h3>
+
+
+<p><em>Kairos</em> follows a modified version of APA, 6th edition. This in-house style is modified to include authors' and editors' full names in all reference lists and full names when the author(s) or editor(s) are mentioned in in-text citations for the first time in each lexia. The in-house style also includes the Retrieved on dates for website citations (which was present in earlier versions of APA). </p>
+
+<h4>General Format for In-Text Citations in APA Style for <em>Kairos</em></h4>
+
+        <p>In-text citations selected from <a href="/11.3/binder.html?topoi/fleckenstein/index.html">Who's Writing?: Aristotelian Ethos and the Author Position in Digital Poetics</a> by Kristie S. Fleckenstein:</p>
+	<ul>
+	<li>Elaine Scarry (1999) in <em>On Beauty</em> connected aesthetics to justice, reminding us that aesthetics and ethics are intertwined in complex ways.</li>
+	<li>Brian Lennon (2000) hypothesized digital visual poetics as a "zona inexplorada of a never wholly discovered, validated, or otherwise bounded networld field" (p. 68).</li>
+	<li>John Kirby (1990) argued that the great works of classical Greek literature were characterized by what he called the great triangle of peitho (persuasion), eros (desire), and bia (force or strength). </li>
+	</ul>
+
+<p>Many <em>Kairos</em> webtexts are submitted by authors more familiar with MLA style. With that in mind, what follows are some of the most common changes authors will have to make to be sure a webtext follows APA style for in-text citations:</p>
+	<ul>
+	<li>A citation should include the name(s) of the author(s), publication date, and page number (when applicable).
+
+						<blockquote>For example, "A new paradigm built around complexity could produce a post-dialectical understanding of contemporary pedagogies of invention for the emerging scene produced by digital technology" (Hawk, 2007, p. 7). </blockquote>
+						</li>
+
+	<li>When the author name is used in a signal statement, the publication year follows the author name, and the page information appears at the end of the citation.
+
+						<blockquote>Byron Hawk (2007) argued, "A new paradigm built around complexity could produce a post-dialectical understanding of contemporary pedagogies of invention for the emerging scene produced by digital technology" (p. 7). </blockquote>
+						</li>
+
+	<li>APA uses past tense for author signal statements. Example: "Hawk (2006) argued...."</li>
+	<li>Use an ampersand between the names of multiple authors or editors in parenthetical citations and reference lists (Selfe &amp; Hawisher, 2004, p. 38).</li>
+	<li>Use block quotation format when including citations of 40 or more words. Start the block quotation on a new line with  a blockquote indentation and omit quotation marks:
+
+						<blockquote>Accordingly, the NCTE Executive Committee adopted a definition of 21st Century Literacies in 2008:
+
+							<blockquote>Literacy has always been a collection of cultural and communicative practices shared among members of particular groups. As society and technology change, so does literacy. Because technology has increased the intensity and complexity of literate environments, the twenty-first century demands that a literate person possess a wide range of abilities and competencies, many literacies. These literacies—from reading online newspapers to participating in virtual classrooms—are multiple, dynamic, and malleable. </blockquote></blockquote>
+	</li>
+	</ul>
+<h4>General Format for References Page in APA Style for <em>Kairos</em></h4>
+			<p>References page citations selected from <a href="/12.1/topoi/warner/index.html">Constructing a Tool for Assessing Scholarly Webtexts</a> by Allison Warner:</p>
+
+	<ul>
+	<li>Crowley, Sharon. (1994). <em>Ancient rhetorics for contemporary students</em>. New York, NY: Macmillan.</li>
+	<li>Kalmbach, James. (2006). Reading the archives: Ten years of nonlinear (<em>Kairos</em>) history. <em>Kairos: A Journal of Rhetoric, Technology, Pedagogy, 11</em>(1). Retrieved November 12, 2006, from <a href="/11.1/binder.html?topoi/kalmbach/index.html">http://kairos.technorhetoric.net/11.1/binder.html?topoi/kalmbach/index.html</a></li>
+	<li>Ong, Walter. (1982). <em>Orality and literacy: The technologizing of the word</em>. New York, NY: Routledge. </li>
+	</ul>
+	<p>Additional references page citation examples:</p>
+	<ul>
+	<li>A YouTube reference:
+					<blockquote>Edutopia. (2012, March 21). James Paul Gee on learning with video games [Video file]. <em>YouTube</em>. Retrieved September 1, 2015, from <a href="https://www.youtube.com/watch?v=JnEN2Sm4IIQ" target="blank">https://www.youtube.com/watch?v=JnEN2Sm4IIQ</a></blockquote></li>
+	<li>A Soundcloud reference:
+					<blockquote>Anthology. (2015, July). The tell tale heart by Edgar Allan Poe [Audio file]. <em>Soundcloud</em>. Retrieved September 1, 2015, from <a href="https://www.youtube.com/watch?v=JnEN2Sm4IIQ" target="blank">https://www.youtube.com/watch?v=JnEN2Sm4IIQ</a></blockquote></li>
+	<li>A blog post reference:
+					<blockquote>Colby, Richard. (2014, March 29). Sparklepony drama [Blog post]. <em>Games, writing, rhetoric</em>. Retrieved July 18, 2014, from <a href="http://richardcolby.net/blog/sparklepony-drama/" target="blank">http://richardcolby.net/blog/sparklepony-drama/</a></blockquote></li>
+	<li>An image reference:
+					<blockquote>Cassidy, Kathy. (2013, March 4). Race for a flat [Photograph]. <em>Flickr</em>. Retrieved June 27, 2014, from <a href="https://www.flickr.com/photos/kathycassidy/8535940666/" target="blank">https://www.flickr.com/photos/kathycassidy/8535940666/</a></blockquote></li>
+	</ul>
+
+			<p>Many <em>Kairos</em> webtexts are submitted by authors more familiar with MLA style. With that in mind, what follows are some of the most common differences authors will have to make to be sure a webtext follows APA style for a final references page:</p>
+	<ul>
+	<li>The final listing of sources in APA is called a “References” page, not “Works Cited” or “Bibliography.”</li>
+	<li>The date is usually in second position (right behind author(s) or titles) and included within parentheses followed by a period.</li>
+	<li>Capitalize only the first letter of article/book titles and the first letter after a colon if there’s one in the title (with the exception of proper nouns and acronyms):
+
+					<blockquote>Selfe, Richard. (2004). <em>Sustainable computer environments: Cultures of support in English studies and language arts</em>. Cresskill, NJ: Hampton Press. </blockquote></li>
+	<li>(However, do use capital letters for titles for in-text references)</li>
+	<li>Article titles are not italicized and not put in quotation marks:
+
+				   <blockquote> DeVoss, Dànielle Nicole, Cushman, Ellen, &amp; Grabill, Jeffrey T. (2005). Infrastructure and composing: The when of new-media writing.  <em>College Composition and Communication, 57</em>(1), 14&ndash;44. </blockquote></li>
+
+	<li>Use “&amp;” instead of “and” when listing multiple author or editor names:
+	<blockquote>
+	Selfe, Cynthia L., & Hawisher, Gail E. (Eds.). (2004). Literate lives in the information age: Narratives of literacy from the United States. New York, NY: Routledge.
+	</blockquote>
+
+	</li>
+
+
+	<li>Multiple publications by the same author should be listed in chronological order, with names spelled out in all instances. If publications occur in the same year by a single author (or co-authors), add letters to the year of publication and list the entries in alphabetical order by title. Include the letters&mdash;e.g., (Wysocki, 2004a) or (Wysocki, 2004b)&mdash;when making in-text references.
+	<blockquote>
+	Wysocki, Anne Frances. (2004a). Learning from <em>Fatty Bear</em>: Calling forth gender in children’s interactive multimedia. In Brian Huot, Charles Bazerman, &amp; Elizabeth Stroble (Eds.), <em>Multiliteracies for the twenty-first century</em> (pp. 227&ndash;252). Cresskill, NJ: Hampton Press.
+	<br /><br />
+	Wysocki, Anne Frances. (2004b). Openings and justifications. In Anne Frances Wysocki, Johndan Johnson-Eilola, Cynthia L. Selfe, &amp; Geoffrey Sirc, <em>Writing new media: Theory and applications for expanding the teaching of composition</em> (pp. 1&ndash;24). Logan, UT: Utah State University Press.
+	</blockquote>
+	</li>
+
+	<li>Italicize journal titles and issue numbers (e.g., <em>Computers and Composition, 20</em>, 415&ndash;426.)</li>
+	<li>University press names are spelled out:
+
+					<blockquote>Labov, William. (1972). <em>Sociolinguistic patterns</em>. Philadelphia, PA: University of Pennsylvania Press.</blockquote></li>
+
+	<li>For electronic references, there is no final punctuation and the URL should be linked to open in a new browser window unless it’s linked to another Kairos webtext, in which case it should not open in a new window:
+
+					<blockquote>WIDE Research Center Collective. (2005). Why teach digital writing? <em>Kairos: A Journal of Rhetoric, Technology, Pedagogy, 10</em>(1). Retrieved February 8, 2006, from <a href="/10.1/binder2.html?coverweb/wide/index.html" target="link">http://kairos.technorhetoric.net/10.1/binder2.html?coverweb/wide/index.html</a> </blockquote>
+	</li>
+
+	</ul>
+
+<h3><a name="errors" id="errors"></a>Common Grammar, Style, and Usage Errors</h3>
+<ul>
+<li>When referring to the <em>Kairos</em> text itself, refer to it as a webtext (not an article or an essay) unless there's a PDF or other accompaniment being referred to.</li>
+<li>Abbreviations: spell out entire name on the first use and include abbreviation in parenthesis after (e.g., short&ndash;term memory (STM)). The abbreviation can be used thereafter, but must be redefined on every node. Note that APA allows for some terms that have their own Webster's Dictionary entries to be listed alone, such as IQ.</li>
+<li>Ampersands: use character entities (<code>&amp;amp;</code>). These should only be used in References lists or in names that are trademarked with &amp; (e.g., <em>Computers and Composition</em> is trademarked as is, not with an ampersand).</li>
+<li>Capitalization: in text, do not capitalize field names (e.g., Rhetoric should be rhetoric) unless it is a proper noun (e.g., English should be English). Similarly, do not capitalize job titles (e.g., Associate Professor) or units (e.g., Writing Center) unless it precedes the person's name or is used as a proper noun (e.g., the writing center is the hub of all activity; The Sweetland Center for Writing is the pre-eminent...). In the References list, book titles, article titles, and chapter titles should only have the first word, proper nouns and acronyms, and words directly following a colon capitalized. All other words in book titles, article titles, and chapter titles should be lowercase.</li>
+<li>Commas around years: set off year in exact dates (e.g., April 25, 2011, was the correct date) but not month only (e.g., April 2011).</li>
+<li>&ndash;em dashes: use character entities (<code>&amp;mdash;</code>), and there should be no spaces around them.</li>
+<li>&ndash;en dashes: use character entities (<code>&amp;ndash;</code>), and there should be no spaces around them. The &ndash;en dash is frequently used when there are sets of pages, and character entities should be used in text and in the References list.</li>
+<li>Hyphenation: do not use hyphens with "non&ndash;" words, unless meaning would be confused without the hyphen.</li>
+<li>In&ndash;text citations: in APA style, writers only need to repeat the author and year citation within a single paragraph when a second citation has been inserted in between two citations for the previous author and year.</li>
+<li>Parentheses: (When a complete sentence is enclosed in parentheses, place punctuation in the sentence inside the parentheses, like this.) If only part of a sentence is enclosed in parentheses (like this), place punctuation outside the parenthesis (like this).</li>
+<li>Serial comma: use a comma between elements in a series of three or more items (e.g., height, width, and depth).</li>
+<li>Sets of page numbers: when including a set of page numbers, all numerals should be included (e.g., pp. 119&ndash;157 instead of pp. 119&ndash;57).</li>
+</ul>
+
+  </div>
+    <!--Close current issue list, again, only used on the main issue page-->
+    <div id="supporting-content">
+
+    </div>
+  
+<br style="clear:both" /> 
+</div>  
+<br style="clear:both" /><div id="sub-content">
+  <ul>
+    <li id="about">
+       <h2><a href="/about.html">About Kairos</a></h2>
+        <p><em>Kairos</em> is a <a href="/board.html">refereed</a> open-access online journal exploring the intersections of rhetoric, technology, and pedagogy. The journal reaches a wide audience -- currently 45,000 readers per month, hailing from Ascension Island to Zimbabwe (and from every top-level domain country code in between); our international readership typically runs about 4,000 readers per month.  Kairos publishes bi-annually, in August and January, with occasional special issues in May. Our current acceptance rate for published articles is approximately 10%.</p>
+
+<p>Since its <a href="/1.1/index.html">first issue</a> in January of 1996, the mission of <em>Kairos</em> has been to publish scholarship that examines digital and multimodal composing practices, promoting work that enacts its scholarly argument through rhetorical and innovative uses of new media. <em>Kairos</em> is one of the leading peer-reviewed journals in English Studies, made so by its dedication to academic quality through the journal’s extensive peer-review and editorial production processes.</p>
+
+<p>We publish "webtexts," which are texts authored specifically for publication on the World
+Wide Web. Webtexts are scholarly examinations of topics related to technology in English Studies fields (e.g., rhetoric, composition, technical and professional communication, education, creative writing, language and literature) and related fields such as media studies, informatics, arts technology, and others. Besides scholarly webtexts, <em>Kairos</em> publishes teaching-with-technology narratives, reviews of print and digital media, extended interviews with leading scholars, interactive exchanges, "letters" to the editors, and news and announcements of interest.</p>
+
+<p>Because questions of copyright, intellectual property, and fair use often arise for scholars who wish to create digital publications, we have developed <a href="/copyleft.html">a statement of copyright</a> that encourages authors to carefully consider their rights and responsibilities while advocating for a strengthening of fair use. Our copyright statement also provides authors with the opportunity to build upon and republish their work because we are committed to the continuing development of intellectual work and believe that authors should retain the rights to scholarly production.</p>
+
+<p>We invite you to share your views about Kairos, and we hope you'll consider submitting your work for our editorial review.</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
+
+    </li>
+    <li id="staff">
+<h2><a href="/staff.html">Kairos Staff</a></h2>
+      <ul>
+        <li>
+          <h3>Senior Editor</h3>
+          <ul>
+            <li>Douglas Eyman</li>
+
+          </ul>
+        </li>
+        <li>
+          <h3>Editor</h3>
+          <ul>
+            <li>Cheryl Ball</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Managing Editor</h3>
+          <ul>
+                        <li>Michael Faris</li>
+          </ul>
+        </li>
+
+
+        <li>
+          <h3>Topoi Editors</h3>
+          <ul>
+			<li>Mike Edwards</li>
+			<li>Ashley Holmes</li>
+          </ul>
+        </li>
+
+        <li>
+          <h3>Praxis Editor</h3>
+
+          <ul>
+	    <li>Elkie Burnside</li>
+           
+          </ul>
+        </li>
+		 <li>
+          <h3>PraxisWiki Editors</h3>
+
+          <ul>
+            <li>Kristi McDuffie</li>
+            <li>Kathryn Perry</li>
+	    <li>Matthew Vetter</li>
+	  </ul>
+        </li>
+
+        <li>
+	  <h3>Disputatio Editor</h3>
+	  <ul>
+	     <li>Moe Folk</li> 
+	  </ul>
+	</li>
+ 		
+        <li>
+          <h3>Inventio Editor</h3>
+
+          <ul>
+            <li>Madeleine Sorapure</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Reviews Editors</h3>
+
+          <ul>
+            <li>Christopher Andrews</li>
+            <li>Elizabeth Fleitz</li>
+			
+			
+          </ul>
+        </li>
+        <li>
+          <h3>Interviews Editors</h3>
+
+          <ul>
+            <li>D. Alexis Hart</li>
+            <li>Margaret M. Strain</li>
+          </ul>
+        </li>
+        <li>
+          <h3>KairosCast Editors</h3>
+
+          <ul>
+            <li>Courtney Danforth</li>
+            <li>Harley Ferris</li>
+          </ul>
+        </li>
+        
+	<li>
+	  <h3>Communications Editors</h3>
+	    
+	   <ul>
+		<li>John Jones</li>
+		<li>Howard Fooksman</li>
+           </ul>
+	</li>
+			
+		
+      </ul>
+    </li>
+    <li id="kairosnewsfeed">
+        <ul></ul>    </li>
+  </ul>
+</div>
+</div><div id="footer"><br /><br /><a href="/copyleft.html">Journal Design and Implementation &copy; Kairos, 1996 - 2017 Kairos.</a></div>
+<!-- END FOOTER FUNCTION -->
+
+</body>
+</html>
