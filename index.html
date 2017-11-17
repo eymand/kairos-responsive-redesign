@@ -18,15 +18,13 @@
   <meta name="og:title"
     content="Issue 22.1 (Fall 2017) - Kairos: A Journal of Rhetoric, Technology, and Pedagogy" />
   <meta name="og:description"
-    content="Kairos: A Journal of Rhetoric, Technology, and Pedagogy is the premier online,
-      peer-reviewed journal in computers and writing." />
+    content="Kairos: A Journal of Rhetoric, Technology, and Pedagogy is the premier online, peer-reviewed journal in computers and writing." />
   <meta name="og:url"
     content="http://kairos.technorhetoric.net/" />
 
   <meta name="DC.title" content="Kairos: A Journal of Rhetoric, Technology, and Pedagogy" />
   <meta name="DC.subject"
-    content="The intersections of rhetoric, technology, and pedagogy, with a focus on writing
-      studies and composition" />
+    content="The intersections of rhetoric, technology, and pedagogy, with a focus on writing studies and composition" />
   <meta name="DC.publisher" content="Kairos: A Journal of Rhetoric, Technology, and Pedagogy" />
 
   <meta name="DC.type" content="Text" />
@@ -74,12 +72,12 @@
   </nav>
 </header>
 
-<div id="content">
-  <div id="issue">
+<main id="content">
+  <header id="issue">
     <h2>Open Issue</h2>
     <h3>22.1 Fall 2017</h3>
-  </div>
-  <div id="search">
+  </header>
+  <article id="search">
     <script>
     (function() {
     var cx = '006155699516671758047:nic4fvizvj8';
@@ -91,19 +89,21 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
     })();
-    </script> <!--<gcse:search></gcse:search>-->
-  </div>
-  <div id="logging-on">
+    </script>
+    <gcse:search></gcse:search>
+  </article>
+  <article id="logging-on">
     <h2>Logging On</h2>
     <ul>
       <li>
         <a href="22.1/loggingon/index.html">In This Issue</a> - Cheryl Ball, Editor
       </li>
     </ul>
-  </div>
+  </article>
   <!--On non-issue-home pages, use <div id="main-content"></div> instead of the ul#webtexts-->
-  <ul id="webtexts">
-    <li id="disputatio">
+  <section id="webtexts">
+    <!-- TODO: Need some kind of header and heading element here -->
+    <section id="disputatio">
       <h2>Disputatio</h2>
       <ul>
         <li>
@@ -139,8 +139,8 @@
           as a podcast), and a video trailer (in the style of a movie trailer).</p>
         </li>
       </ul>
-    </li>
-    <li id="topoi">
+    </section>
+    <section id="topoi">
       <h2>Topoi</h2>
       <ul>
         <li>
@@ -185,8 +185,8 @@
           differentially traverse the multimodal account of the learning journey."</p>
         </li>
       </ul>
-    </li>
-    <li id="inventio">
+    </section>
+    <section id="inventio">
       <h2>Inventio</h2>
       <ul>
         <li>
@@ -202,8 +202,8 @@
           College on Composition and Communication (CCCC) Chair's Address.</p>
         </li>
       </ul>
-    </li>
-    <li id="praxis">
+    </section>
+    <section id="praxis">
       <h2>Praxis</h2>
       <ul>
         <li>
@@ -219,8 +219,8 @@
           place.</p>
         </li>
       </ul>
-    </li>
-    <li id="praxiswiki">
+    </section>
+    <section id="praxiswiki">
       <h2>PraxisWiki</h2>
       <ul>
         <li>
@@ -244,9 +244,9 @@
           <h3>Spencer Smith</h3>
         </li>
       </ul>
-    </li>
-  </ul><!--Close current issue list, again, only used on the main issue page-->
-  <div id="supporting-content">
+    </section>
+  </section>
+  <section id="supporting-content">
     <h2 class="scheader">KairosCast</h2>
     <ul>
       <li class="reviews">
@@ -286,9 +286,10 @@
         <h3><a href="reviews.html">Index: All <em>Kairos</em> Reviews</a></h3>
       </li>
     </ul>
-  </div>
-</div>
-<div id="sub-content">
+  </section>
+</main>
+
+<aside id="sub-content">
   <ul>
     <li id="about">
       <h2><a href="/about.html">About Kairos</a></h2>
@@ -410,10 +411,10 @@
     </li>
     <li id="kairosnewsfeed"></li>
   </ul>
-</div>
-</div>
-<div id="footer">
-<a href="/copyleft.html">Journal Design and Implementation © Kairos, 1996 - 2017 Kairos.</a>
-</div><!-- END FOOTER FUNCTION -->
+</aside>
+<footer id="footer">
+  <a href="/copyleft.html">Journal Design and Implementation © Kairos, 1996 - 2017 Kairos.</a>
+</footer><!-- END FOOTER FUNCTION -->
+</div><!--/#container-->
 </body>
 </html>
